@@ -1,0 +1,35 @@
+body{
+  display:flex;
+  height:100vh;
+  align-items:center;
+  justify-content:center;
+}
+.container{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+}
+
+
+.container div{
+  display:flex;
+  justify-content:space-between;
+  gap:15px;
+}
+.container div button{
+  padding:8px 16px;
+  border-radius:6px;
+  border:1px solid #f0f0f0;
+  cursor:pointer;
+  font-weight:bold;
+  color:#fff;
+}
+.container div .inc{
+  background:#10b848;
+}
+.container div .dec{
+  background:rgb(252, 67, 67);
+}
+.container div .reset{
+  background:rgb(84, 84, 253);
+}
